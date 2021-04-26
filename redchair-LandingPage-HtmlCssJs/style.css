@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* START : NAVIGATION BAR */
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 125px
+}
+
+nav .nav-brand {
+  max-width: 185px;
+}
+
+nav .nav-items {
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-items ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+nav .nav-items ul li {
+  margin-left: 50px;
+}
+
+nav .nav-items ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+
+.btn-primary {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #CD4C4C;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  font-weight: 500;
+  font-size: 16px;
+  color: #CD4C4C;
+  background-color: #FFFFFF;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+/* END : NAVIGATION BAR */
+
+
+/* START: HEADER CONTENT */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 125px
+}
+
+header .text-content {
+  width: 50%;
+}
+
+header .text-content h1 {
+  font-size: 64px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+  padding-bottom: 38px;
+}
+
+header .text-content h1 span {
+  color: #CD4C4C;
+}
+
+header .text-content p {
+  width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 52px;
+  color: #555555;
+  line-height: 1.6;
+}
+/* END: HEADER CONTENT  */
+
+
+/* START: PARTNERS SECTION */
+.section-partners {
+  width: 100%;
+  padding: 0 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 100px;
+}
+/* END: PARTNERS SECTION */
+
+
